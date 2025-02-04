@@ -9,19 +9,36 @@ library(marinecs100b)
 # Guiding questions -------------------------------------------------------
 
 # What does KEFJ stand for?
+#Kenai Fjords
 
 # How was temperature monitored?
+# using HOBO V2 temperature loggers (sensors) placed at each site
 
 # What's the difference between absolute temperature and temperature anomaly?
+# absolute is total temperature, anomaly is temperature that deviates from normal
 
 
 # Begin exploring ---------------------------------------------------------
 
 # How many kefj_* vectors are there?
+?kefj
+#there are 6 kefj vectors
 
 # How long are they?
+#all are 2187966
 
 # What do they represent?
+# kefj_temperature: A numeric vector with the temperature readings in Celsius.
+
+# kefj_site: A character vector with the name of the site (one of Aialik, Harris, McCarty, Nuka_Bay, or Nuka_Pass) of the temperature reading.
+
+# kefj_datetime
+
+# kefj_tidelevel
+
+# kefj_exposure
+
+# kefj_season
 
 # Link to sketch
 
